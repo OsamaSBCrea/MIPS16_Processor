@@ -1,0 +1,22 @@
+620
+~E 1 "./../src/ALU_16.vhd" 7 ALU
+~A 1 "./../src/ALU_16.vhd" 14 ALU_MIPS
+~E 1 "./../src/AND_Array.vhd" 4 AND_Array
+~E 1 "./../src/Control_Unit.vhd" 22 Control_Unit
+~A 1 "./../src/Control_Unit.vhd" 31 MIPS_Control
+~E 1 "./../src/Data_Memory.vhd" 7 Data_Memory
+~A 1 "./../src/Data_Memory.vhd" 15 Data_Mem
+~E 1 "./../src/Instruction_Memory.vhd" 6 Instruction_Memory
+~A 1 "./../src/Instruction_Memory.vhd" 11 Inst_Mem
+~E 1 "./../src/MIPS_Processor.vhd" 7 MIPS_Processor
+~A 1 "./../src/MIPS_Processor.vhd" 10 mips
+~A 1 "./../src/MIPS_Processor.vhd" 10 SingleCycle
+~E 1 "./../src/Mux.vhd" 5 Mux
+~E 1 "./../src/Muxes.vhd" 26 Mux2_1
+~A 1 "./../src/Muxes.vhd" 33 GenericMux
+~E 1 "./../src/Mux.vhd" 6 Mux2n_1
+~A 1 "./../src/Mux.vhd" 14 GenericMux
+~E 1 "./../src/Muxes.vhd" 6 Mux4_1
+~A 1 "./../src/Muxes.vhd" 13 GenericMux
+~E 1 "./../src/Register_File.vhd" 6 Register_File
+~A 1 "./../src/Register_File.vhd" 14 MIPS_Registers

@@ -1,0 +1,16 @@
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\MIPS_16\src/ALU_16.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\MIPS_16\src/MIPS_Types.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\MIPS_16\src/Control_Unit.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\MIPS_16\src/MIPS_Processor.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\MIPS_16\src/Register_File.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\MIPS_16\src/Data_Memory.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\MIPS_16\src/Instruction_Memory.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\MIPS_16\src/Muxes.vhd|]
+TemplateId=0

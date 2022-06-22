@@ -1,0 +1,1 @@
+-w -s "E:\Documents\EBooks\BZU Docs\ENCS437\Project 2\MIPS_Processor\library.cfg"  -j "E:\Documents\EBooks\BZU Docs\ENCS437\Project 2\MIPS_Processor\MIPS_16\projlib.cfg"  -d "E:\Documents\EBooks\BZU Docs\ENCS437\Project 2\MIPS_Processor\MIPS_16\compile"   -work MIPS_16  -O3 -e 100 -2002 "E:/Documents/EBooks/BZU Docs/ENCS437/Project 2/MIPS_Processor/MIPS_16/src/MIPS_Processor.vhd"

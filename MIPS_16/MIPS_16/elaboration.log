@@ -1,0 +1,44 @@
+Active-HDL 10.3.3559.6081  2017-05-24 12:11:14
+
+Elaboration top modules:
+Architecture                  SingleCycle(MIPS_Processor)
+
+
+-------------------------------------------------------------------------------------------------------
+Entity             | Architecture   | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+MIPS_Processor     | SingleCycle    | mips_16 |      | 10.3.3559.6081  (Windows) | -O3
+Mux4_1             | GenericMux     | mips_16 |      | 10.3.3559.6081  (Windows) | -O3
+Mux2_1             | GenericMux     | mips_16 |      | 10.3.3559.6081  (Windows) | -O3
+Control_Unit       | MIPS_Control   | mips_16 |      | 10.3.3559.6081  (Windows) | -O3
+Instruction_Memory | Inst_Mem       | mips_16 |      | 10.3.3559.6081  (Windows) | -O3
+Data_Memory        | Data_Mem       | mips_16 |      | 10.3.3559.6081  (Windows) | -O3
+Register_File      | MIPS_Registers | mips_16 |      | 10.3.3559.6081  (Windows) | -O3
+ALU                | ALU_MIPS       | mips_16 |      | 10.3.3559.6081  (Windows) | -O3
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+VHDL Package                        | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+standard                            | std     |      |                           | <unavailable>
+TEXTIO                              | std     |      | 10.3.3559.6081  (Windows) |  -2008
+std_logic_1164                      | ieee    |      | 10.3.3559.6081  (Windows) |  -2008
+std_logic_arith                     | ieee    |      | 10.3.3559.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED                  | ieee    |      | 10.3.3559.6081  (Windows) | <unavailable>
+MIPS_Types                          | mips_16 |      | 10.3.3559.6081  (Windows) | -O3
+NUMERIC_STD                         | ieee    |      | 10.3.3559.6081  (Windows) |  -2008
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Library                             | Comment
+-------------------------------------------------------------------------------------------------------
+ieee                                | Standard IEEE packages library
+mips_16                             | None
+std                                 | Standard VHDL library
+-------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+MIPS_Processor MIPS_Processor SingleCycle
+
+
+The performance of simulation is reduced. Version Student Edition

@@ -1,0 +1,8 @@
+.\src\ALU_16.vhd
+.\src\MIPS_Types.vhd
+.\src\Instruction_Memory.vhd
+.\src\Data_Memory.vhd
+.\src\Register_File.vhd
+.\src\Control_Unit.vhd
+.\src\MIPS_Processor.vhd
+.\src\Muxes.vhd

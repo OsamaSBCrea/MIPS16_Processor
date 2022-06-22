@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: e:\Documents\EBooks\BZU Docs\ENCS437\Project 2\MIPS_Processor\MIPS_16\src\MIPS_Processor.vhd" 
+MESSAGE "Compile Entity "MIPS_Processor"" 
+MESSAGE "Compile Architecture "SingleCycle" of Entity "MIPS_Processor"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

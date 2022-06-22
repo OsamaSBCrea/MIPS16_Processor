@@ -1,0 +1,70 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=MIPS_16
+
+[Library]
+MIPS_16=.\MIPS_16\MIPS_16.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=Lattice ECP2
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+MIPS_16=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=mips_processor|SingleCycle|0       
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/ALU_16.vhd=-1
+/MIPS_Types.vhd=-1
+/Instruction_Memory.vhd=-1
+/Data_Memory.vhd=-1
+/Register_File.vhd=-1
+/Control_Unit.vhd=-1
+/MIPS_Processor.vhd=-1
+/Muxes.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+
+[Files.Data]
+.\src\ALU_16.vhd=VHDL Source Code
+.\src\MIPS_Types.vhd=VHDL Source Code
+.\src\Instruction_Memory.vhd=VHDL Source Code
+.\src\Data_Memory.vhd=VHDL Source Code
+.\src\Register_File.vhd=VHDL Source Code
+.\src\Control_Unit.vhd=VHDL Source Code
+.\src\MIPS_Processor.vhd=VHDL Source Code
+.\src\Muxes.vhd=VHDL Source Code
+
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
