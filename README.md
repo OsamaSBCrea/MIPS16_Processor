@@ -27,7 +27,7 @@ For **I-type** instructions, `Rs` specifies a source register number, and `Rt` c
 | Opcode (4-bit) | Immediate (12-bit) |
 |:--------------:|:------------------:|
 
-For **J-type** instructions, a 12-bit `Immediate` constant is used for `JMP` (Jump), `JAL` (Jump and Link), and `LUI` (Load Upper Immediate) instructions, which are defined in the [Instruction Set](#instruction-set).
+For **J-type** instructions, a 12-bit `Immediate` constant is used for `J` (Jump), `JAL` (Jump and Link), and `LUI` (Load Upper Immediate) instructions, which are defined in the [Instruction Set](#instruction-set).
 
 ## Instruction Set
 
@@ -115,9 +115,42 @@ For **J-type** instructions, a 12-bit `Immediate` constant is used for `JMP` (Ju
     - Operation: `Branch to Immediate if (R[Rt] != R[Rs])`
     - `Opcode = 10 (1010)`
 
+### J-Type Instruction Set
+| Opcode (4-bit) | Immediate (12-bit) |
+|:--------------:|:------------------:|
+| Value (11-14)  |   Value (0-4095)   |
+
+1. **J** instruction:
+   - Operation: `PC = PC + Immediate`
+   - `Opcode = 11 (1011)`
+
+2. **JAL** instruction:
+   - Operation:
+   ```
+   R[7] = PC + 2
+   PC = PC + Immediate
+   ```
+   - `Opcode = 12 (1100)`
+
+3. **JALR** instruction:
+   - Operation:
+   ```
+   R[Rd] = PC
+   PC = R[Rs]
+   ```
+   - `Opcode = 13 (1101)`
+
+1. **LUI** instruction:
+   - Operation: `R1 = Immediate << 4`
+   - `Opcode = 14 (1110)`
+
+### Terminate Instruction
+   - Operation: Terminate the program
+   - `Opcode = 15 (1111)`
+
 ## Register File
-The register file contains seven 16-bit registers `R[1]` to `R[7]` with two read ports and one write port. Note that R0 is hardwired to zero.
+The register file `R` contains seven 16-bit registers `R[1]` to `R[7]` with two read ports and one write port. Note that `R[0]` is hardwired to zero.
 
 ## Memory
 This processor has separate instruction and data memories with 2<sup>16</sup> words each. Each word is 16 bits or 2 bytes.
-Instruction Memory is Word Addressable and Data Memory is Byte Addressable.
+Instruction Memory `I` is Word Addressable and Data Memory `M` is Byte Addressable.
