@@ -35,7 +35,7 @@ For **J-type** instructions, a 12-bit `Immediate` constant is used for `J` (Jump
 
 | Opcode (4-bit) |  R<sub>s</sub> (3-bit)  |  R<sub>t</sub> (3-bit)  |   R<sub>d</sub> (3-bit)    | Fn (3-bit)  |
 |:--------------:|:-----------------------:|:-----------------------:|:--------------------------:|:-----------:|
-|   `0 0 0 0`    | Source Register 1 (0-7) | Source Register 2 (0-7) | Destination Register (1-7) | Value (0-7) |
+|   `0 0 0 0`    |     Register 1 (0-7)    |     Register 2 (0-7)    | Destination Register (1-7) | Value (0-7) |
 
 1. **AND** instruction:
     - Operation: `R[Rd] = R[Rs] & R[Rt]`
